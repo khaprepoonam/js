@@ -59,4 +59,6 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter);  // gameCounter = gameCounter + 1
+console.log(gameCounter); 
+++gameCounter
+console.log(gameCounter); // gameCounter = gameCounter + 1
