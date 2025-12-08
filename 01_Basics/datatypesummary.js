@@ -40,3 +40,30 @@ console.log(typeof isloggedIn);
 // null => object 
 console.log(typeof userEmail); 
 console.log(typeof anotherId);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+// stack (primitive) , heap (non-primitive)
+
+let myYoutubeName = "teq.uila09"
+
+let anotherName =  myYoutubeName
+anotherName = "teq.uila10"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi : "user@okaxis"
+}
+let userTwo = userOne
+
+userTwo.email = "poonam@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
